@@ -1,0 +1,3 @@
+include ':mhri'
+include ':app'
+rootProject.name = "mobileHRI"
