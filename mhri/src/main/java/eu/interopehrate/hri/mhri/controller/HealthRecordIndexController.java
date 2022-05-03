@@ -21,7 +21,6 @@ import retrofit2.converter.gson.GsonConverterFactory;
 public class HealthRecordIndexController {
     private HealthRecordIndexI healthRecordIndexI;
     private String BASE_URL = "http://10.0.2.2:8080/";
-//    private String BASE_URL = "http://213.249.46.244:8080/";
 
     public HealthRecordIndexController() {
         healthRecordIndexI = retrofit.create(HealthRecordIndexI.class);
