@@ -5,7 +5,7 @@ The current release of the library (i.e. `mhri`), contains all the operations th
 
 ## Endpoints
 
-The methods called by the `mhri` library are ```createCitizen, removeData``` and ```updateCitizen```. 
+The methods called by the `mhri` library are `createCitizen`, `removeData` and `updateCitizen`. 
 
 ### createCitizen
 By using this method, a request is submitted to the HRI service. This method is used by the citizen’s S-EHR app in order to make a new entry to the HR Index which will include information related to the citizen’s S-EHR Cloud service. The request is performed to the following endpoint of the deployed HR Index service: 
